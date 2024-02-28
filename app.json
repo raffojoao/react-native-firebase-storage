@@ -28,6 +28,13 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-image-picker", {
+          "photosPermission": "The app accesses yout photos to let you share"
+        }
+      ]
+    ]
   }
 }
